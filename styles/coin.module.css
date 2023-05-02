@@ -1,0 +1,129 @@
+/* Write your CSS here */
+
+
+/* styles.module.css */
+
+.container {
+    min-height: 100vh;
+    padding: 50px 20px 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1586974710160-55f48f417990?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29pbnN8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60');
+}
+
+.tcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.hcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.gheading {
+    font-size: 23px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    text-align: center;
+    color: #a35200;
+}
+
+@media screen and (min-width: 768px) {
+    .gheading {
+        font-size: 35px;
+    }
+}
+
+.gsheading {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    color: #334155;
+}
+
+.icontainer {
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.htimage {
+    width: 180px;
+    height: 180px;
+    padding: 20px;
+}
+
+.tcbcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tcbutton {
+    border: none;
+    outline: none;
+    background-image: linear-gradient(to right, #f9d423, #e2a139);
+    padding: 10px 20px 10px 20px;
+    border-width: 0px;
+    width: 160px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    cursor: pointer;
+}
+
+.scontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin-top: 55px;
+}
+
+@media screen and (min-width: 500px) {
+    .scontainer {
+        flex-direction: row;
+    }
+}
+
+.totalscorecontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.scorestatus,
+.scoretext {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    color: #334155;
+}
+
+@media screen and (min-width: 768px) {
+    .scorestatus,
+    .scoretext {
+        font-size: 18px;
+    }
+}
