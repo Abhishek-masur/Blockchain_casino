@@ -24,7 +24,7 @@ const afterlogin = () => {
       
       onClick={Mintfun}
     >
-      Mint
+      Add Currency
     </button>
     <br />
     <button
