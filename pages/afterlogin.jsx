@@ -5,7 +5,7 @@ const afterlogin = () => {
     const router= useRouter()
     const Mintfun=()=>{
        
-        router.push('/admin');
+        router.push('/admin1');
 
     }
     const Playgame=()=>{
